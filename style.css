@@ -33,6 +33,7 @@ h1 {
   font-size: 5rem;
   font-weight: 400;
   color: #1b084e;
+  margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -57,7 +58,7 @@ h3 {
 
 main {
   width: 80%;
-  min-width: 360px;
+  min-width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
