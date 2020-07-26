@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f5c624), color-stop(99.53%, rgba(154, 52, 178, 0.46))), url("./img/bg.jpg");
+  background-image: linear-gradient(to right bottom, #f5c624 0%, rgba(154, 52, 178, 0.46) 99.53%), url("./img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 400;
+  color: #1b084e;
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h3 {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 1.85rem;
+  color: #1b084e;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  width: 80%;
+  min-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 4rem auto 1.5rem auto;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    margin: 1rem auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.img-container {
+  height: 272px;
+  width: 50rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .img-container {
+    height: 150px;
+    width: 150px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+p {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.cta {
+  padding: 1rem 1.5rem;
+  color: #1b084e;
+  background-color: #f5c624;
+  font-size: 1.9rem;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.cta:hover {
+  color: #f5c624;
+  background-color: #1b084e;
+}
+/*# sourceMappingURL=style.css.map */
